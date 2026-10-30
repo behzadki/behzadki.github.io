@@ -56,10 +56,10 @@ export const site = {
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: 'Machine Learning Researcher & Engineer' `Theoretical Physicist
+    subtitle: 'Machine Learning Researcher & Engineer' /**`Theoretical Physicist
       &nbsp;·&nbsp;
       <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
+      Princeton`,*/
 
     /**
      * Address block below profile photo.
