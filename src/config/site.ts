@@ -83,7 +83,7 @@ export const site = {
     github_username: 'behzadki',
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'qc6CJjYAAAAJ',
+    scholar_userid: 'GfNYEZEAAAAJ',
     orcid_id: undefined as string | undefined,
     /** Inspire HEP author ID */
     inspire_id: '1010907',
@@ -97,7 +97,7 @@ export const site = {
     /** Path to CV PDF in public/assets/pdf/ */
     cv_pdf: '/assets/pdf/example_pdf.pdf',
     /** Show RSS icon in social links */
-    rss_icon: true,
+    rss_icon: undefined as string | undefined,
   },
 
   // ─── Navigation ────────────────────────────────────────────────────────────
