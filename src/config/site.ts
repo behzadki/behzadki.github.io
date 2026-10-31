@@ -65,9 +65,7 @@ export const site = {
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+    moreInfo: ``,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -117,18 +115,14 @@ export const site = {
      * `href` values are relative to the site root (base is prepended automatically).
      */
     items: [
-      { label: 'about', href: '/' },
-      { label: 'blog', href: '/blog/' },
-      { label: 'publications', href: '/publications/' },
+      { label: 'Home', href: '/' },
       { label: 'projects', href: '/projects/' },
-      { label: 'repositories', href: '/repositories/' },
-      { label: 'cv', href: '/cv/' },
+      { label: 'publications', href: '/publications/' },
       {
-        label: 'more',
+        label: 'CV / Resume',
         children: [
-          { label: 'teaching', href: '/teaching/' },
-          { label: 'people', href: '/people/' },
-          { label: 'books', href: '/books/' },
+          { label: 'Academic CV', href: '/cv/' },
+          { label: 'Industry Resume', href: '/assets/pdf/industry-resume.pdf' },
         ],
       },
     ] as NavItem[],
