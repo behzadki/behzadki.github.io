@@ -116,8 +116,8 @@ export const site = {
      */
     items: [
       { label: 'Home', href: '/' },
-      { label: 'projects', href: '/projects/' },
-      { label: 'publications', href: '/publications/' },
+      { label: 'Projects', href: '/projects/' },
+      { label: 'Publications', href: '/publications/' },
       {
         label: 'CV / Resume',
         children: [
