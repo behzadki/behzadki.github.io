@@ -83,7 +83,7 @@ export const site = {
     github_username: 'behzadki',
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'GfNYEZEAAAAJ',
+    scholar_userid: 'https://scholar.google.com/citations?user=GfNYEZEAAAAJ&hl=en',
     orcid_id: undefined as string | undefined,
     /** Inspire HEP author ID */
     inspire_id: '1010907',
