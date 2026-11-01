@@ -208,7 +208,7 @@ export const site = {
 
   latestPosts: {
     /** Show latest blog posts section on the about page. */
-    enabled: true,
+    enabled: failed,
     scrollable: true,
     limit: 3 as number | undefined,
   },
@@ -433,8 +433,8 @@ export const site = {
      *   Custom hover:     { light: '#0076df', dark: '#68c0d9', hoverLight: '#0a53be', hoverDark: '#9fd8ea' }
      */
     color: {
-      light: 'auto' as string,
-      dark: 'auto' as string,
+      light: '#0076df',
+      dark: '#68c0d9',
       hoverLight: 'auto' as string,
       hoverDark: 'auto' as string,
     },
