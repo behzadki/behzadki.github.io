@@ -1,8 +1,9 @@
 ---
 title: "Automated Flake Detection with Deep Learning"
 description: "An automated computer vision pipeline for identifying and cataloging 2D material flakes."
-img: /assets/img/projects/flake-detection.jpg
-img_alt: "Microscope image with detected flakes"
+img: /assets/img/flake-detection.jpg
+img_alt: "Deep learning detection and classification of material flakes in microscope images"
+#img_alt: "Microscope image with detected flakes"
 importance: 1
 category: Research
 ---
