@@ -1,7 +1,7 @@
 
 ---
-date: 2026-09-30
+date: 2026-09-23
 pinned: false
 ---
 
-Coauthored a new [research preprint](https://arxiv.org/abs/2609.27290) on physics-informed neural networks for atmospheric thermal forecasting.
+Our new paper, [*Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins*](https://arxiv.org/abs/2609.27290), is now available on arXiv.
