@@ -2,128 +2,230 @@
 # Used by the CV page when site.cv.format is 'rendercv'.
 
 cv:
-  name: Albert Einstein
-  location: Princeton, NJ
-  email: einstein@example.com
-  phone: tel:+1-000-000-0000
-  website: https://example.github.io
-  summary: A German-born theoretical physicist widely regarded as one of the greatest scientists of all time. Best known for developing the theory of relativity, the most important pillar along with quantum mechanics of modern physics.
+  name: Behzad Karimi
+  location: 'Bozeman, MT, USA'
+  email: 'behkarimi@gmail.com'
+  website: 'https://behzadki.github.io'
+  summary: >-
+    Machine learning researcher and engineer with an M.S. in Electrical and Computer
+    Engineering from Montana State University. Experienced in applied computer vision,
+    deep learning, object detection, and machine learning pipelines for scientific
+    applications, with additional experience in teaching and IT systems engineering.
   social_networks:
     - network: GitHub
-      username: example
+      username: behzadki
     - network: LinkedIn
-      username: example
-
+      username: behzadki
   sections:
     education:
-      - institution: University of Zurich
-        area: Physics
-        degree: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: Montana State University
+        area: Electrical and Computer Engineering
+        degree: M.S.
+        start_date: '2024-01'
+        end_date: '2026-05'
+        location: 'Bozeman, MT, USA'
         highlights:
-          - 'Thesis: "A New Determination of Molecular Dimensions"'
-          - 'Supervisor: Alfred Kleiner'
-
-      - institution: ETH Zurich
-        area: Mathematics and Physics Teaching Diploma
-        degree: Diploma
-        start_date: 1896
-        end_date: 1900
-
+          - 'GPA: 3.80/4.00'
+          - 'Advisor: Prof. Bradley Whitaker'
+          - 'Professional paper: Machine Vision–Based Automated Flake Detection with Feedback-Driven Model Improvement'
+          - 'Selected coursework: Machine Learning, Mathematics of Machine Learning, Advanced Data Mining, Data Visualization, Machine Learning for Engineering'
+      - institution: Ghiaseddin Jamshid Kashani University
+        area: Computer Engineering
+        degree: B.S.
+        start_date: '2007'
+        end_date: '2009'
+        location: 'Qazvin, Iran'
+        highlights:
+          - 'Capstone: Developed an e-commerce website for computer components'
+      - institution: Shahid Babaei Technical and Vocational University
+        area: Computer Software
+        degree: A.S.
+        start_date: '2005'
+        end_date: '2007'
+        location: 'Qazvin, Iran'
     experience:
-      - company: Institute for Advanced Study
-        position: Professor
-        location: Princeton, NJ
-        start_date: 1933
-        end_date: present
+      - company: MonArk NSF Quantum Foundry, Montana State University
+        position: Research Assistant
+        location: 'Bozeman, MT, USA'
+        start_date: '2024-01'
+        end_date: '2025-08'
         highlights:
-          - Developed unified field theory research program
-          - Mentored generations of physicists and mathematicians
-          - Contributed to foundations of quantum mechanics debates
-
-      - company: University of Berlin
-        position: Professor and Director
-        location: Berlin, Germany
-        start_date: 1914
-        end_date: 1933
+          - 'Contributed to an automated machine vision pipeline for detecting flakes in two-dimensional quantum materials'
+          - 'Developed tools to convert detector outputs from CSV to COCO-format JSON annotations for dataset regeneration'
+          - 'Supported feedback-driven retraining workflows and integration across evolving software environments'
+          - 'Used PyTorch-based computer vision models and transfer learning approaches, including DetectoRS'
+      - company: Montana State University
+        position: Graduate Teaching Assistant — Signals and Systems
+        location: 'Bozeman, MT, USA'
+        start_date: '2025-08'
+        end_date: '2026-05'
         highlights:
-          - Developed the general theory of relativity (1915)
-          - Predicted gravitational waves and black holes
-          - Awarded Nobel Prize in Physics (1921)
-
-      - company: University of Zurich
-        position: Associate Professor
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-      - company: Swiss Patent Office
-        position: Technical Expert (Third Class)
-        location: Bern, Switzerland
-        start_date: 1902
-        end_date: 1909
+          - 'Supported laboratory instruction, grading, and preparation of course materials'
+      - company: Padzanij
+        position: IT Administrator
+        location: Iran
+        start_date: '2017'
+        end_date: '2022'
         highlights:
-          - Evaluated patent applications while conducting independent research
-          - Published four landmark papers in 1905 (Annus Mirabilis)
-
+          - 'Installed and maintained networks, servers, workstations, and core IT infrastructure'
+          - 'Managed Windows Server, Active Directory, DNS, DHCP, RAID, and system backups'
+      - company: Tehran Institute of Technology
+        position: Instructor — Python, Networking, and Computer Skills
+        location: Iran
+        start_date: '2012'
+        end_date: '2018'
+        highlights:
+          - 'Delivered Python, Network+, and ICDL instruction and developed hands-on course materials'
     publications:
-      - title: 'On the Electrodynamics of Moving Bodies'
+      - title: 'Machine Vision-Based Automated Flake Detection with Feedback-Driven Model Improvement'
         authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053221004
-        date: 1905-06
-        journal: Annalen der Physik
-
-      - title: 'Does the Inertia of a Body Depend Upon Its Energy Content?'
+          - Behzad Karimi
+          - Bradley M. Whitaker
+        journal: '2026 Intermountain Engineering, Technology and Computing (IEEE IETC), pp. 1–6'
+        date: '2026-05'
+      - title: 'Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins'
         authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053231314
-        date: 1905-09
-        journal: Annalen der Physik
-
-      - title: 'Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?'
-        authors:
-          - Albert Einstein
-          - Boris Podolsky
-          - Nathan Rosen
-        doi: 10.1103/PhysRev.47.777
-        date: 1935-05
-        journal: Physical Review
-
-      - title: 'On the General Theory of Relativity'
-        authors:
-          - Albert Einstein
-        date: 1915-11
-        journal: Prussian Academy of Sciences
-
-    awards:
-      - name: Nobel Prize in Physics
-        date: '1921'
-        issuer: Royal Swedish Academy of Sciences
-        highlights:
-          - 'For services to theoretical physics, and especially for his discovery of the law of the photoelectric effect'
-
-      - name: Copley Medal
-        date: '1925'
-        issuer: Royal Society
-
-      - name: Max Planck Medal
-        date: '1929'
-        issuer: German Physical Society
-
+          - Tannaz Goodarzvand Chegini
+          - Elyas Shivanian
+          - Behzad Karimi
+          - Faraz Dadgostari
+        journal: 'arXiv preprint, arXiv:2609.27290'
+        date: '2026-09-23'
+        url: 'https://arxiv.org/abs/2609.27290'
     skills:
-      - label: Theoretical Physics
-        details: General Relativity, Special Relativity, Quantum Mechanics, Statistical Mechanics
-      - label: Mathematics
-        details: Differential Geometry, Tensor Calculus, Riemannian Geometry
-      - label: Languages
-        details: German (native), English (fluent), French (proficient)
+      - label: Programming
+        details: 'Python, C++, SQL, R, MATLAB'
+      - label: Machine Learning and Computer Vision
+        details: 'PyTorch, TensorFlow, scikit-learn, OpenCV, MMDetection, object detection, transfer learning'
+      - label: Data and Development Tools
+        details: 'NumPy, pandas, Matplotlib, Git, Docker, Conda, LaTeX, Tableau'
+      - label: Systems and Networking
+        details: 'Windows Server, Active Directory, DNS, DHCP, RAID'
 
-    interests:
-      - label: Music
-        details: Violin, Mozart, Bach
-      - label: Philosophy
-        details: Spinoza, Mach, Kant
-      - label: Sailing
-        details: Long Island Sound, Swiss lakes
+
+# cv:
+#   name: Albert Einstein
+#   location: Princeton, NJ
+#   email: einstein@example.com
+#   phone: tel:+1-000-000-0000
+#   website: https://example.github.io
+#   summary: A German-born theoretical physicist widely regarded as one of the greatest scientists of all time. Best known for developing the theory of relativity, the most important pillar along with quantum mechanics of modern physics.
+#   social_networks:
+#     - network: GitHub
+#       username: example
+#     - network: LinkedIn
+#       username: example
+
+#   sections:
+#     education:
+#       - institution: University of Zurich
+#         area: Physics
+#         degree: PhD
+#         start_date: 1900
+#         end_date: 1905
+#         highlights:
+#           - 'Thesis: "A New Determination of Molecular Dimensions"'
+#           - 'Supervisor: Alfred Kleiner'
+
+#       - institution: ETH Zurich
+#         area: Mathematics and Physics Teaching Diploma
+#         degree: Diploma
+#         start_date: 1896
+#         end_date: 1900
+
+#     experience:
+#       - company: Institute for Advanced Study
+#         position: Professor
+#         location: Princeton, NJ
+#         start_date: 1933
+#         end_date: present
+#         highlights:
+#           - Developed unified field theory research program
+#           - Mentored generations of physicists and mathematicians
+#           - Contributed to foundations of quantum mechanics debates
+
+#       - company: University of Berlin
+#         position: Professor and Director
+#         location: Berlin, Germany
+#         start_date: 1914
+#         end_date: 1933
+#         highlights:
+#           - Developed the general theory of relativity (1915)
+#           - Predicted gravitational waves and black holes
+#           - Awarded Nobel Prize in Physics (1921)
+
+#       - company: University of Zurich
+#         position: Associate Professor
+#         location: Zurich, Switzerland
+#         start_date: 1909
+#         end_date: 1911
+
+#       - company: Swiss Patent Office
+#         position: Technical Expert (Third Class)
+#         location: Bern, Switzerland
+#         start_date: 1902
+#         end_date: 1909
+#         highlights:
+#           - Evaluated patent applications while conducting independent research
+#           - Published four landmark papers in 1905 (Annus Mirabilis)
+
+#     publications:
+#       - title: 'On the Electrodynamics of Moving Bodies'
+#         authors:
+#           - Albert Einstein
+#         doi: 10.1002/andp.19053221004
+#         date: 1905-06
+#         journal: Annalen der Physik
+
+#       - title: 'Does the Inertia of a Body Depend Upon Its Energy Content?'
+#         authors:
+#           - Albert Einstein
+#         doi: 10.1002/andp.19053231314
+#         date: 1905-09
+#         journal: Annalen der Physik
+
+#       - title: 'Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?'
+#         authors:
+#           - Albert Einstein
+#           - Boris Podolsky
+#           - Nathan Rosen
+#         doi: 10.1103/PhysRev.47.777
+#         date: 1935-05
+#         journal: Physical Review
+
+#       - title: 'On the General Theory of Relativity'
+#         authors:
+#           - Albert Einstein
+#         date: 1915-11
+#         journal: Prussian Academy of Sciences
+
+#     awards:
+#       - name: Nobel Prize in Physics
+#         date: '1921'
+#         issuer: Royal Swedish Academy of Sciences
+#         highlights:
+#           - 'For services to theoretical physics, and especially for his discovery of the law of the photoelectric effect'
+
+#       - name: Copley Medal
+#         date: '1925'
+#         issuer: Royal Society
+
+#       - name: Max Planck Medal
+#         date: '1929'
+#         issuer: German Physical Society
+
+#     skills:
+#       - label: Theoretical Physics
+#         details: General Relativity, Special Relativity, Quantum Mechanics, Statistical Mechanics
+#       - label: Mathematics
+#         details: Differential Geometry, Tensor Calculus, Riemannian Geometry
+#       - label: Languages
+#         details: German (native), English (fluent), French (proficient)
+
+#     interests:
+#       - label: Music
+#         details: Violin, Mozart, Bach
+#       - label: Philosophy
+#         details: Spinoza, Mach, Kant
+#       - label: Sailing
+#         details: Long Island Sound, Swiss lakes
