@@ -5,12 +5,15 @@ cv:
   name: Behzad Karimi
   location: 'Bozeman, MT, USA'
   email: 'behkarimi@gmail.com'
-  website: 'https://behzadki.github.io'
+  #website: 'https://behzadki.github.io'
   summary: >-
-    Machine learning researcher and engineer with an M.S. in Electrical and Computer
-    Engineering from Montana State University. Experienced in applied computer vision,
-    deep learning, object detection, and machine learning pipelines for scientific
-    applications, with additional experience in teaching and IT systems engineering.
+    Machine learning researcher and engineer with an M.S. in Electrical
+    and Computer Engineering from Montana State University. Experienced
+    in applied computer vision, deep learning, and the development of
+    machine learning pipelines for scientific applications, including
+    object detection, data processing, and feedback-driven model
+    improvement. Additional experience in technical instruction and
+    IT systems engineering.
   social_networks:
     - network: GitHub
       username: behzadki
@@ -21,8 +24,8 @@ cv:
       - institution: Montana State University
         area: Electrical and Computer Engineering
         degree: M.S.
-        start_date: '2024-01'
-        end_date: '2026-05'
+        start_date: '2024'
+        end_date: '2026'
         location: 'Bozeman, MT, USA'
         highlights:
           - 'GPA: 3.80/4.00'
@@ -32,21 +35,11 @@ cv:
       - institution: Ghiaseddin Jamshid Kashani University
         area: Computer Engineering
         degree: B.S.
-        start_date: '2007'
         end_date: '2009'
-        location: 'Qazvin, Iran'
-        highlights:
-          - 'Capstone: Developed an e-commerce website for computer components'
-      - institution: Shahid Babaei Technical and Vocational University
-        area: Computer Software
-        degree: A.S.
-        start_date: '2005'
-        end_date: '2007'
-        location: 'Qazvin, Iran'
+        location: 'Iran'
     experience:
       - company: MonArk NSF Quantum Foundry, Montana State University
         position: Research Assistant
-        location: 'Bozeman, MT, USA'
         start_date: '2024-01'
         end_date: '2025-08'
         highlights:
@@ -56,14 +49,10 @@ cv:
           - 'Used PyTorch-based computer vision models and transfer learning approaches, including DetectoRS'
       - company: Montana State University
         position: Graduate Teaching Assistant — Signals and Systems
-        location: 'Bozeman, MT, USA'
         start_date: '2025-08'
         end_date: '2026-05'
-        highlights:
-          - 'Supported laboratory instruction, grading, and preparation of course materials'
       - company: Padzanij
         position: IT Administrator
-        location: Iran
         start_date: '2017'
         end_date: '2022'
         highlights:
@@ -71,7 +60,6 @@ cv:
           - 'Managed Windows Server, Active Directory, DNS, DHCP, RAID, and system backups'
       - company: Tehran Institute of Technology
         position: Instructor — Python, Networking, and Computer Skills
-        location: Iran
         start_date: '2012'
         end_date: '2018'
         highlights:
@@ -82,7 +70,8 @@ cv:
           - Behzad Karimi
           - Bradley M. Whitaker
         journal: '2026 Intermountain Engineering, Technology and Computing (IEEE IETC), pp. 1–6'
-        date: '2026-05'
+        date: '2026'
+        url: 'https://ieeexplore.ieee.org/abstract/document/11568601'
       - title: 'Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins'
         authors:
           - Tannaz Goodarzvand Chegini
@@ -98,9 +87,7 @@ cv:
       - label: Machine Learning and Computer Vision
         details: 'PyTorch, TensorFlow, scikit-learn, OpenCV, MMDetection, object detection, transfer learning'
       - label: Data and Development Tools
-        details: 'NumPy, pandas, Matplotlib, Git, Docker, Conda, LaTeX, Tableau'
-      - label: Systems and Networking
-        details: 'Windows Server, Active Directory, DNS, DHCP, RAID'
+        details: 'NumPy, pandas, Matplotlib, Git, Docker'
 
 
 # cv:
