@@ -35,7 +35,7 @@ export const site = {
   title: 'Behzad Karimi',
 
   /** Site description. Used in meta tags. */
-  description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
+  description: 'Behzad Karimi is a machine learning researcher and engineer specializing in computer vision, deep learning, and applied AI for scientific and engineering applications.',
 
   /** Language code for the site. */
   lang: 'en',
@@ -129,8 +129,7 @@ export const site = {
      * Text shown in footer. HTML is supported.
      * Leave empty string to hide.
      */
-    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>.
-      Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.`,
+    text: ``,
     /** Show "Last updated" timestamp in footer. */
     lastUpdated: false,
     /** Path to impressum/legal page (EU GDPR). Leave undefined to hide. */
@@ -141,7 +140,7 @@ export const site = {
      * 'normal'  — sits at the natural bottom of page content (only visible when scrolled down)
      * 'hidden'  — footer is not rendered at all
      */
-    position: 'sticky' as 'sticky' | 'normal' | 'hidden',
+    position: 'normal' as 'sticky' | 'normal' | 'hidden',
   },
 
   // ─── CV page ───────────────────────────────────────────────────────────────
@@ -338,7 +337,7 @@ export const site = {
      * Max number of authors shown before "and N more..." link.
      * Set to undefined to always show all authors.
      */
-    maxAuthorLimit: 3 as number | undefined,
+    maxAuthorLimit: undefined as number | undefined,
     /** Enable thumbnail images for publications (if `preview` set in BibTeX). */
     thumbnails: true,
     /**
@@ -396,7 +395,7 @@ export const site = {
   pages: {
     projects: {
       /** Description shown below the "projects" heading on the projects page. */
-      description: 'A growing collection of your cool projects.',
+      description: 'Selected research and engineering projects in machine learning, computer vision, and applied AI.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */
@@ -411,7 +410,7 @@ export const site = {
      * Default color theme.
      * 'system' follows OS preference.
      */
-    default: 'system' as 'light' | 'dark' | 'system',
+    default: 'light' as 'light' | 'dark' | 'system',
 
     /**
      * Primary accent color used for links, active nav items, badges, and highlights.
